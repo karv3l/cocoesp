@@ -1,0 +1,13 @@
+# Kodi Media Center language file
+# Addon Name: cocoesp (puente CocoScrapers)
+# Addon id: script.module.cocoscrapers
+msgid ""
+msgstr ""
+
+msgctxt "#32000"
+msgid "General"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Open cocoesp settings (providers, source language...)"
+msgstr ""
