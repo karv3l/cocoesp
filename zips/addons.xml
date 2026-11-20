@@ -46,7 +46,7 @@
 		<news>Source language option: English, Spanish only or Multi-language. Spanish trackers for Torrentio.</news>
 	</extension>
 </addon>
-<addon id="script.module.cocoscrapers" name="cocoesp (puente CocoScrapers)" version="9.0.0" provider-name="karv3l">
+<addon id="script.module.cocoscrapers" name="cocoesp (puente CocoScrapers)" version="9.0.1" provider-name="karv3l">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.cocoesp" version="1.0.0" />
@@ -67,7 +67,7 @@
 			<icon>icon.png</icon>
 			<fanart>fanart.png</fanart>
 		</assets>
-		<news>Bridge to cocoesp 1.0.0.</news>
+		<news>Fix: "from cocoscrapers import sources_cocoscrapers" now works on a clean interpreter.</news>
 	</extension>
 </addon>
 </addons>

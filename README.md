@@ -22,10 +22,17 @@ Esas apps buscan `script.module.cocoscrapers`. El repositorio incluye un **add-o
 - `src/script.module.cocoscrapers/` — add-on puente (id de CocoScrapers → cocoesp)
 - `src/repository.karv3l/` — add-on repositorio (apunta a `raw.githubusercontent.com/karv3l/cocoesp/main/zips/`)
 - `tools/build_repo.py` — genera `zips/`, `addons.xml`, `addons.xml.md5`, el zip del repositorio e `index.html`
+- `tests/` — pruebas sin Kodi ni red (filtro de idioma, alias del puente)
+- `specs/` — documentación SDD: [constitución](specs/constitution.md), arquitectura y una carpeta por funcionalidad ([índice](specs/README.md))
 - `zips/`, `index.html`, `repository.karv3l-*.zip` — generados; es lo que lee Kodi
 
+## Desarrollo (Spec-Driven Development)
+Todo cambio empieza por una spec en `specs/NNN-nombre/` siguiendo las [plantillas](specs/templates/)
+y el [flujo descrito en specs/README.md](specs/README.md#flujo-de-trabajo).
+
 ## Publicar una nueva versión
-1. Sube `version` en `src/script.module.cocoesp/addon.xml` y añade la entrada en `changelog.txt`.
+1. Sube `version` en el `addon.xml` del add-on cambiado y añade la entrada en su `changelog.txt`.
 2. `py -3 -m venv .venv` y `.venv\Scripts\python -m pip install -r requirements.txt` (solo la primera vez).
-3. `.venv\Scripts\python tools\build_repo.py`
-4. Commit y push a `main`.
+3. Pruebas: `.venv\Scripts\python -I tests\test_language_filter.py` y `.venv\Scripts\python -I tests\test_bridge_alias.py`
+4. `.venv\Scripts\python -I tools\build_repo.py`
+5. Commit y push a `main`.

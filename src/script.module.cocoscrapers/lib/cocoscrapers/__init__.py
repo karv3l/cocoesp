@@ -13,7 +13,13 @@ import os
 import sys
 
 _TARGET = 'cocoesp'
-_RENAMES = (('cocoscrapers.sources_cocoscrapers', 'cocoesp.sources_cocoesp'), ('cocoscrapers', 'cocoesp'))
+# "from cocoscrapers import sources_cocoscrapers" se resuelve como "cocoesp.sources_cocoscrapers",
+# porque sys.modules['cocoscrapers'] es cocoesp; por eso también se mapea ese nombre.
+_RENAMES = (
+	('cocoscrapers.sources_cocoscrapers', 'cocoesp.sources_cocoesp'),
+	('cocoesp.sources_cocoscrapers', 'cocoesp.sources_cocoesp'),
+	('cocoscrapers', 'cocoesp'),
+)
 
 
 def _target_name(name):
@@ -38,7 +44,8 @@ class _AliasFinder(importlib.abc.MetaPathFinder):
 	_cocoesp_alias = True
 
 	def find_spec(self, name, path=None, target=None):
-		if not name.startswith('cocoscrapers.'): return None
+		if not (name.startswith('cocoscrapers.') or name == 'cocoesp.sources_cocoscrapers'
+				or name.startswith('cocoesp.sources_cocoscrapers.')): return None
 		target_name = _target_name(name)
 		if not target_name: return None
 		return importlib.util.spec_from_loader(name, _AliasLoader(target_name))

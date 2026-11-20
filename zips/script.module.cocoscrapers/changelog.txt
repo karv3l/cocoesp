@@ -1,0 +1,5 @@
+[COLOR red][B]Version 9.0.1[/B][/COLOR]
+- Fix: "from cocoscrapers import sources_cocoscrapers" now resolves to cocoesp.sources_cocoesp on a clean interpreter.
+
+[COLOR red][B]Version 9.0.0[/B][/COLOR]
+- Bridge: script.module.cocoscrapers redirects imports, plugin actions and settings to script.module.cocoesp.
