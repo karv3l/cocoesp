@@ -1,6 +1,6 @@
 # Especificación 003: Repositorio de Kodi en GitHub
 
-**ID:** `003-repositorio-kodi` · **Estado:** Implementada (GitHub Pages pendiente de activar) · **Fecha:** 2026-11-20
+**ID:** `003-repositorio-kodi` · **Estado:** Implementada · **Fecha:** 2026-11-20
 **Principios afectados:** VI (publicación reproducible), VII (privacidad)
 
 ## Contexto
@@ -44,7 +44,7 @@ Como mantenedor quiero regenerar todos los artefactos de Kodi con un comando.
 ## Criterios de éxito
 - **SC-001**: El MD5 publicado coincide con el `addons.xml` publicado. ✅
 - **SC-002**: Los zips se descargan con HTTP 200 desde `raw.githubusercontent.com`. ✅
-- **SC-003**: `https://karv3l.github.io/cocoesp/` responde 200. ⏳ (requiere activar Pages)
+- **SC-003**: `https://karv3l.github.io/cocoesp/` responde 200. ✅
 - **SC-004**: Instalación completa en Kodi siguiendo el [quickstart](quickstart.md). ⏳
 
 ## Supuestos

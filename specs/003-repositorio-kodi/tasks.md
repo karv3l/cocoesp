@@ -15,7 +15,7 @@
 
 ## Fase 3 — Publicación
 - [x] T008 Repo git local con autor noreply; commit `6253606`; push a `main`
-- [ ] T009 [SC-003] Activar GitHub Pages: *Settings → Pages → Deploy from a branch → main → / (root)* (lo hace el propietario)
+- [x] T009 [SC-003] Activar GitHub Pages: *Settings → Pages → Deploy from a branch → main → / (root)* (activado por el propietario; verificado 200)
 - [ ] T010 [SC-004] Instalación completa en Kodi — [quickstart.md](quickstart.md)
 
 ## Mejoras futuras

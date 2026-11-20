@@ -30,7 +30,7 @@ constitution.md ──► spec.md ──► plan.md (+ research.md, contracts/) 
 | [000-baseline](000-baseline/architecture.md) | Arquitectura heredada de CocoScrapers 1.0.45 | Referencia |
 | [001-filtro-idioma](001-filtro-idioma/spec.md) | Ajuste «Idioma de las fuentes» y Torrentio en español | Implementado |
 | [002-addon-independiente](002-addon-independiente/spec.md) | Renombrado a `script.module.cocoesp` | Implementado |
-| [003-repositorio-kodi](003-repositorio-kodi/spec.md) | Repositorio `repository.karv3l` en GitHub | Implementado · Pages pendiente |
+| [003-repositorio-kodi](003-repositorio-kodi/spec.md) | Repositorio `repository.karv3l` en GitHub | Implementado · instalación en Kodi pendiente de validar |
 | [004-puente-cocoscrapers](004-puente-cocoscrapers/spec.md) | Add-on puente para Fen/Umbrella | Implementado · validación en Kodi pendiente |
 
 ## Glosario
