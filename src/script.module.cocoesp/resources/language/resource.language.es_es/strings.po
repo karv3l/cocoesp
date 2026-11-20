@@ -26,3 +26,43 @@ msgstr "Multidioma"
 msgctxt "#32704"
 msgid "English: original behaviour. Spanish only: keep only Castilian/Latino/VOSE/Dual releases and use Torrentio Spanish trackers. Multi-language: keep every language."
 msgstr "Inglés: comportamiento original. Solo español: muestra solo versiones en castellano, latino, VOSE o dual y usa los trackers españoles de Torrentio. Multidioma: muestra todos los idiomas."
+
+msgctxt "#32710"
+msgid "Spanish sites (Castilian)"
+msgstr "Webs en castellano"
+
+msgctxt "#32711"
+msgid "DONTORRENT (castellano, movies)"
+msgstr "DONTORRENT (castellano, películas)"
+
+msgctxt "#32712"
+msgid "ELITE TORRENT (castellano, movies)"
+msgstr "ELITE TORRENT (castellano, películas)"
+
+msgctxt "#32713"
+msgid "DIVXTOTAL (castellano, movies)"
+msgstr "DIVXTOTAL (castellano, películas)"
+
+msgctxt "#32714"
+msgid "GRANTORRENT (castellano, movies)"
+msgstr "GRANTORRENT (castellano, películas)"
+
+msgctxt "#32715"
+msgid "Domain (empty = default)"
+msgstr "Dominio (vacío = por defecto)"
+
+msgctxt "#32716"
+msgid "Spanish movie site. May be blocked by your ISP DNS. Movies only."
+msgstr "Web española de películas. Puede estar bloqueada por el DNS de tu operadora. Solo películas."
+
+msgctxt "#32717"
+msgid "Use when the site moves to a new domain, e.g. https://www.example.com"
+msgstr "Úsalo cuando la web cambie de dominio, p. ej. https://www.ejemplo.com"
+
+msgctxt "#32718"
+msgid "YOURBITTORRENT (multi-language, extra \"spa\" search)"
+msgstr "YOURBITTORRENT (multidioma, búsqueda extra «spa»)"
+
+msgctxt "#32719"
+msgid "General index via its public search RSS. In Spanish / Multi-language mode it also searches \"<title> spa\"."
+msgstr "Índice general a través de su RSS público de búsqueda. En modo Solo español o Multidioma busca también «<título> spa»."

@@ -914,3 +914,43 @@ msgstr ""
 msgctxt "#32599"
 msgid "13377001.xyz"
 msgstr ""
+
+msgctxt "#32710"
+msgid "Spanish sites (Castilian)"
+msgstr ""
+
+msgctxt "#32711"
+msgid "DONTORRENT (castellano, movies)"
+msgstr ""
+
+msgctxt "#32712"
+msgid "ELITE TORRENT (castellano, movies)"
+msgstr ""
+
+msgctxt "#32713"
+msgid "DIVXTOTAL (castellano, movies)"
+msgstr ""
+
+msgctxt "#32714"
+msgid "GRANTORRENT (castellano, movies)"
+msgstr ""
+
+msgctxt "#32715"
+msgid "Domain (empty = default)"
+msgstr ""
+
+msgctxt "#32716"
+msgid "Spanish movie site. May be blocked by your ISP DNS. Movies only."
+msgstr ""
+
+msgctxt "#32717"
+msgid "Use when the site moves to a new domain, e.g. https://www.example.com"
+msgstr ""
+
+msgctxt "#32718"
+msgid "YOURBITTORRENT (multi-language, extra \"spa\" search)"
+msgstr ""
+
+msgctxt "#32719"
+msgid "General index via its public search RSS. In Spanish / Multi-language mode it also searches \"<title> spa\"."
+msgstr ""

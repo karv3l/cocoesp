@@ -1,3 +1,10 @@
+[COLOR red][B]cocoesp 1.1.0[/B][/COLOR]
+- New Castilian movie providers (disabled by default): DonTorrent, Elite Torrent, DivxTotal, GranTorrent.
+- Searches with the Spanish (es) alias as well as the original title; .torrent infohash computed locally.
+- Configurable domain per site. Password-protected (.rar only) torrents are skipped.
+- New YourBittorrent provider (disabled by default) using its public search RSS; extra "<title> spa" search in Spanish modes.
+- Spanish detection: "dual" alone no longer counts as Spanish (avoids Dual.PTBR).
+
 [COLOR red][B]cocoesp 1.0.0[/B][/COLOR]
 - Independent add-on (script.module.cocoesp) based on CocoScrapers 1.0.45; can be installed alongside CocoScrapers.
 - New "Source language" setting: English / Spanish only / Multi-language.

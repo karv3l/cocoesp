@@ -13,7 +13,7 @@ ni ver todos los idiomas sin perder el comportamiento original.
 
 ### HU-1 — Ver solo contenido en español (P1)
 Como usuario hispanohablante quiero que las búsquedas devuelvan solo versiones en español
-(castellano, latino, VOSE o dual) para no tener que revisar resultados que no entiendo.
+(castellano, latino o VOSE) para no tener que revisar resultados que no entiendo.
 
 **Escenarios de aceptación**
 1. **Dado** el ajuste en «Solo español», **cuando** un proveedor devuelve `Pelicula.2014.1080p.CASTELLANO`,
@@ -43,7 +43,7 @@ Como usuario actual quiero que, si no toco nada, el módulo se comporte como Coc
 ## Casos límite
 - Abreviaturas dentro de otras palabras (`Lastday` contiene `lat`) **no** cuentan como español.
 - `Español` llega como `espaol` tras eliminar caracteres no ASCII: debe reconocerse.
-- `dual`/`dual-lat` (habitual en trackers hispanos) cuenta como español.
+- `dual-lat` cuenta como español por `lat`; `dual` solo no (ver spec 007).
 - `multi` **no** cuenta como español (suele ser francés + inglés).
 - La «búsqueda sin filtros» de la app (`fs_filterless_search`) anula cualquier filtro de idioma.
 - Proveedores que no son Torrentio y no ponen el idioma en el nombre: en «Solo español» se descartan.

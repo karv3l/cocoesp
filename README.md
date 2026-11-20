@@ -33,6 +33,6 @@ y el [flujo descrito en specs/README.md](specs/README.md#flujo-de-trabajo).
 ## Publicar una nueva versión
 1. Sube `version` en el `addon.xml` del add-on cambiado y añade la entrada en su `changelog.txt`.
 2. `py -3 -m venv .venv` y `.venv\Scripts\python -m pip install -r requirements.txt` (solo la primera vez).
-3. Pruebas: `.venv\Scripts\python -I tests\test_language_filter.py` y `.venv\Scripts\python -I tests\test_bridge_alias.py`
+3. Pruebas: `.venv\Scripts\python -I tests\<fichero>` con `test_language_filter.py`, `test_bridge_alias.py`, `test_spanish_sites.py` y `test_yourbittorrent.py`
 4. `.venv\Scripts\python -I tools\build_repo.py`
 5. Commit y push a `main`.

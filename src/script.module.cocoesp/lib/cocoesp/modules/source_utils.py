@@ -34,7 +34,7 @@ LANG_MULTI = 'multi'
 # Palabras que identifican un release en español aunque vayan pegadas a otras ('audiocastellano', 'dual-lat'...)
 SPA_WORDS = ('spanish', 'castellano', 'latino', 'espanol', 'espaol', 'subtitulad')
 # Abreviaturas que solo cuentan como palabra completa entre puntos (name_info viene como '.1080p.es.en.')
-SPA_TOKENS = frozenset(('es', 'esp', 'spa', 'cast', 'lat', 'vose', 'vos', 'dual'))
+SPA_TOKENS = frozenset(('es', 'esp', 'spa', 'cast', 'lat', 'vose', 'vos'))  # 'dual' no: ambiguo (Dual.PTBR); en trackers españoles va con lat/castellano
 # Banderas que Torrentio añade al final del título: España y México (latino)
 SPA_FLAGS = ('\U0001f1ea\U0001f1f8', '\U0001f1f2\U0001f1fd')
 SPA_TAG = 'spanish.'

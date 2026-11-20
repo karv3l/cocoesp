@@ -15,10 +15,10 @@
 | Tipo | Valores | Cómo se comprueba |
 |---|---|---|
 | Palabras (pueden ir pegadas) | `spanish`, `castellano`, `latino`, `espanol`, `espaol`, `subtitulad` | subcadena |
-| Abreviaturas | `es`, `esp`, `spa`, `cast`, `lat`, `vose`, `vos`, `dual` | token completo entre puntos |
+| Abreviaturas | `es`, `esp`, `spa`, `cast`, `lat`, `vose`, `vos` | token completo entre puntos |
 
 - `multi` se excluye a propósito (en releases europeos suele ser francés + inglés).
-- `dual` se incluye: en trackers hispanos significa castellano/latino + inglés.
+- `dual` **no** se incluye (enmienda de la [spec 007](../007-yourbittorrent/spec.md#cambio-colateral-en-la-spec-001)): en índices generales aparece en `Dual.PTBR`; en trackers hispanos va con `lat`/`castellano`, que ya cuentan.
 
 ## R3 — Torrentio: configuración y proveedores en español
 Consulta real del 2026-11-20 a

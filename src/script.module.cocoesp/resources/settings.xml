@@ -571,6 +571,92 @@
 					</dependencies>
 					<control type="spinner" format="string"/>
 				</setting>
+				<setting id="provider.yourbittorrent" type="boolean" label="32718" help="32719">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting type="lsep" label="32710"/>
+				<setting id="provider.dontorrent" type="boolean" label="32711" help="32716">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="dontorrent.url" type="string" label="32715" help="32717" parent="provider.dontorrent">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="provider.dontorrent">true</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32715</heading>
+					</control>
+				</setting>
+				<setting id="provider.elitetorrent" type="boolean" label="32712" help="32716">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="elitetorrent.url" type="string" label="32715" help="32717" parent="provider.elitetorrent">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="provider.elitetorrent">true</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32715</heading>
+					</control>
+				</setting>
+				<setting id="provider.divxtotal" type="boolean" label="32713" help="32716">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="divxtotal.url" type="string" label="32715" help="32717" parent="provider.divxtotal">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="provider.divxtotal">true</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32715</heading>
+					</control>
+				</setting>
+				<setting id="provider.grantorrent" type="boolean" label="32714" help="32716">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting id="grantorrent.url" type="string" label="32715" help="32717" parent="provider.grantorrent">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="provider.grantorrent">true</condition>
+						</dependency>
+					</dependencies>
+					<control type="edit" format="string">
+						<heading>32715</heading>
+					</control>
+				</setting>
 			</group>
 		</category>
 		<category id="health" label="32600" help="">

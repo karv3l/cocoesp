@@ -1,4 +1,4 @@
-<addon id="script.module.cocoesp" name="cocoesp" version="1.0.0" provider-name="karv3l">
+<addon id="script.module.cocoesp" name="cocoesp" version="1.1.0" provider-name="karv3l">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -23,6 +23,6 @@
 			<fanart>fanart.png</fanart>
 			<screenshot></screenshot>
 		</assets>
-		<news>Source language option: English, Spanish only or Multi-language. Spanish trackers for Torrentio.</news>
+		<news>New providers (disabled by default): DonTorrent, Elite Torrent, DivxTotal, GranTorrent (Castilian) and YourBittorrent (multi-language).</news>
 	</extension>
 </addon>

@@ -32,6 +32,8 @@ constitution.md ──► spec.md ──► plan.md (+ research.md, contracts/) 
 | [002-addon-independiente](002-addon-independiente/spec.md) | Renombrado a `script.module.cocoesp` | Implementado |
 | [003-repositorio-kodi](003-repositorio-kodi/spec.md) | Repositorio `repository.karv3l` en GitHub | Implementado · instalación en Kodi pendiente de validar |
 | [004-puente-cocoscrapers](004-puente-cocoscrapers/spec.md) | Add-on puente para Fen/Umbrella | Implementado · validación en Kodi pendiente |
+| [006-webs-castellano](006-webs-castellano/spec.md) | DonTorrent, Elite Torrent, DivxTotal y GranTorrent | Implementado sin verificar · bloqueo DNS |
+| [007-yourbittorrent](007-yourbittorrent/spec.md) | YourBittorrent vía RSS de búsqueda (+ «spa») | Implementado · validación en Kodi pendiente |
 
 ## Glosario
 
