@@ -1,0 +1,13 @@
+# Dependencias de script.module.cocoscrapers (equivalentes pip de los add-ons de Kodi)
+# Kodi: script.module.requests
+requests
+urllib3
+# Usado por cfscrape/interpreters/native.py
+pyparsing
+# Opcionales (importadas dentro de try/except en cfscrape)
+brotli
+requests_toolbelt
+polling2
+
+# Solo desarrollo: stubs de la API de Kodi (xbmc, xbmcaddon, xbmcgui, xbmcvfs)
+Kodistubs

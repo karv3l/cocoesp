@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# Material de referencia descargado (no forma parte del proyecto)
+site/
+repo-cocoscrapers/
+extracted/

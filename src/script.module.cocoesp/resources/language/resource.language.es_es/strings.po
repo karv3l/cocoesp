@@ -1,0 +1,28 @@
+# Kodi Media Center language file
+# Addon Name: cocoesp
+# Addon id: script.module.cocoesp
+# Traducción parcial al español: las cadenas no traducidas usan en_gb.
+msgid ""
+msgstr ""
+"Language: es_ES\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "#32700"
+msgid "Source language"
+msgstr "Idioma de las fuentes"
+
+msgctxt "#32701"
+msgid "English"
+msgstr "Inglés"
+
+msgctxt "#32702"
+msgid "Spanish only"
+msgstr "Solo español"
+
+msgctxt "#32703"
+msgid "Multi-language"
+msgstr "Multidioma"
+
+msgctxt "#32704"
+msgid "English: original behaviour. Spanish only: keep only Castilian/Latino/VOSE/Dual releases and use Torrentio Spanish trackers. Multi-language: keep every language."
+msgstr "Inglés: comportamiento original. Solo español: muestra solo versiones en castellano, latino, VOSE o dual y usa los trackers españoles de Torrentio. Multidioma: muestra todos los idiomas."

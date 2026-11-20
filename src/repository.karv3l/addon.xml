@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.karv3l" name="karv3l Repository" version="1.0.0" provider-name="karv3l">
+    <extension point="xbmc.addon.repository" name="karv3l Repository">
+        <dir minversion="19.0">
+            <info compressed="false">https://raw.githubusercontent.com/karv3l/cocoesp/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/karv3l/cocoesp/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/karv3l/cocoesp/main/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>karv3l Repository</summary>
+        <description>Repositorio de karv3l: incluye cocoesp (scrapers con opción de idioma español).</description>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
